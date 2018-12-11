@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 .link-card:hover {
   background-color: #cabdb2;
 }
@@ -30,10 +34,6 @@ a .btn {
   margin: auto;
   padding: .4em .75em .5em;
   border-radius: 8px;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -77,9 +77,14 @@ dt {
 dl {
   width: 100%;
   overflow: hidden;
-  padding: 2rem 0;
-  margin: 0 0 2rem;
+  padding: 1rem 0;
+  margin: 0 0 1rem;
   font-size: .875rem;
   border: solid #9a816d;
   border-width: 2px 0;
+}
+
+.insect-description {
+  font-size: 1rem;
+  font-weight: normal;
 }
