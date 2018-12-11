@@ -11,38 +11,50 @@ html {
 }
 
 .link-card {
-background-color: #dcd4cd;
-border: 3px solid #9a816d;
-border-radius: 8px;
-padding: 1rem;
-max-width: 28em;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+  border-radius: 8px;
+  padding: 1rem;
+  max-width: 28em;
 }
 
 a .btn {
-display: block;
-font-family: sans-serif;
-text-align: center;
-font-weight: bold;
-font-size: 1rem;
-color: white;
-background-color: #785439;
-width: 8em;
-margin: auto;
-padding: .4em .75em .5em;
-border-radius: 8px;
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: #785439;
+  width: 8em;
+  margin: auto;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
 }
 
 *, *::before, *::after {
-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
-font-family: Georgia;
-line-height: 1.5;
-background-color: #f0eee8;
+  font-family: Georgia;
+  line-height: 1.5;
+  background-color: #f0eee8;
 }
 
 a {
-text-decoration: none;
-color: #512200;
+  text-decoration: none;
+  color: #512200;
+}
+
+a.link-card {
+  display: inline-block;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 0;
 }
