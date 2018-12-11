@@ -58,3 +58,28 @@ a.link-card {
   padding: 0;
   margin: 0;
 }
+
+dd {
+  float: left;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+dt {
+  float: left;
+  width: 60%;
+  padding: 0;
+  margin: 0;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+  margin: 0 0 2rem;
+  font-size: .875rem;
+  border: solid #9a816d;
+  border-width: 2px 0;
+}
