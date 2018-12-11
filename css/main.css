@@ -14,26 +14,13 @@ html {
   background-color: #512200;
 }
 
+
 .link-card {
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
   border-radius: 8px;
   padding: 1rem;
   max-width: 28em;
-}
-
-a .btn {
-  display: block;
-  font-family: sans-serif;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-  color: white;
-  background-color: #785439;
-  width: 8em;
-  margin: auto;
-  padding: .4em .75em .5em;
-  border-radius: 8px;
 }
 
 body {
@@ -59,19 +46,9 @@ a.link-card {
   margin: 0;
 }
 
-dd {
-  float: left;
-  width: 60%;
-  padding: 0;
-  margin: 0;
-  font-style: italic;
-}
-
-dt {
-  float: left;
-  width: 60%;
-  padding: 0;
-  margin: 0;
+.insect-description {
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 dl {
@@ -84,7 +61,31 @@ dl {
   border-width: 2px 0;
 }
 
-.insect-description {
+dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+a .btn {
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
   font-size: 1rem;
-  font-weight: normal;
+  color: white;
+  background-color: #785439;
+  width: 8em;
+  margin: auto;
+  padding: .4em .75em .5em;
+  border-radius: 8px;
 }
